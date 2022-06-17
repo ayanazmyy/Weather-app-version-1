@@ -1,0 +1,203 @@
+body {
+    overflow-x: hidden;
+}
+
+/* ================== Navbar ========================== */
+.nav-container {
+    z-index: 99999;
+    background-color: #1e202b;
+}
+
+.navbar li {
+    padding: 0 15px;
+}
+
+nav .nav-link {
+    padding: 5px 25px !important;
+}
+
+nav .img-container {
+    width: 50px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.clicked {
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+}
+
+.navbar li a {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* ============== About section =============== */
+
+.search {
+    /* height: 100vh; */
+    width: 100%;
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+    background-color: #1e202b;
+    display: flex;
+    align-items: center;  
+}
+
+.about .container{
+    background-color: #323544;
+    color: white;
+    border-radius: 10px;
+}
+
+.about .weather-span {
+    color: #009ad8;
+}
+
+.about .welcome {
+    font-size: 30px;
+}
+
+.about {
+    background-color: #1e202b;
+    padding: 50px 0;
+}
+/* ==================== Search section ==================== */
+
+.search-input {
+    background-color: #1e202b;
+    border: none;   
+}
+
+.search-btn {
+    background-color: #009ad8;
+    color: white;
+}
+
+.search .container {
+    margin: auto;
+}
+
+.search .weather-photo {
+    width: 100px;
+}
+
+.search .weather-photo-middle {
+    width: 50px;
+}
+.search .forecast-outer {
+    color: white;
+    background-color: #323544;
+}
+
+.search .weather-desc {
+    color: #009ad8;
+}
+
+.search .forecast-head {
+    background-color: #303341;
+    padding: 15px 0;
+}
+
+.search .forecast-middle .forecast-head {
+    background-color: #262936;
+}
+
+.search .forecast-middle .forecast-body {
+    background-color: #262936;
+    padding: 15px 0;
+}
+
+.middle {
+    background-color: #262936;
+    color: white;
+}
+
+.middle .forecast-head {
+    background-color: #232631;
+}
+
+
+/* ======================== contact section ========================= */
+
+.contact {
+    background-color: #1e202b;
+    color: white;
+
+}
+
+.contact .path {
+    background-color: #262936;
+    padding: 15px;
+}
+
+.contact .path a {
+    color: #009ad8;
+}
+
+.contact textarea {
+    border-radius: 25px;
+    border: 2px solid #303341;
+    background-color: #1e202b;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+}
+
+.contact textarea:hover {
+    border: 2px solid #009ad8;
+}
+
+.contact input {
+    margin-bottom: 15px;
+    border: 2px solid #303341;
+    background-color: #1e202b;
+    transition: all 0.5s;
+}
+
+.contact input:hover {
+    border: 2px solid #009ad8;
+}
+
+.contact .contact-btn {
+    background-color: #009ad8;
+    color: white;
+}
+
+.contact iframe {
+    height: 100%;
+}
+
+/* ============================== footer section =============== */
+
+.footer {
+    background-color: #303341;
+}
+
+.footer .subscribe-input {
+    background-color: #1e202b;
+}
+
+.copy-right {
+    color: #eee;
+}
+
+/* .footer .social-media-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #1e202b;
+    border-radius: 50%;
+} */
+
+.footer  .color-icon {
+    color: #009ad8 !important;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: #1e202b;
+    border-radius: 50%;
+}
+
